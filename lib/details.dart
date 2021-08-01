@@ -185,9 +185,9 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.datetime,
                                     decoration: InputDecoration(
-                                      hintText: '0',
+                                      hintText: '00/00/00',
                                       fillColor: Colors.grey[100],
                                       filled: true,
                                       border: OutlineInputBorder(
@@ -212,9 +212,9 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.datetime,
                                     decoration: InputDecoration(
-                                      hintText: '0',
+                                      hintText: '00:00',
                                       fillColor: Colors.grey[100],
                                       filled: true,
                                       border: OutlineInputBorder(
@@ -269,9 +269,9 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.datetime,
                                     decoration: InputDecoration(
-                                      hintText: '0',
+                                      hintText: '00/00/00',
                                       fillColor: Colors.grey[100],
                                       filled: true,
                                       border: OutlineInputBorder(
@@ -296,9 +296,9 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.datetime,
                                     decoration: InputDecoration(
-                                      hintText: '0',
+                                      hintText: '0:00',
                                       fillColor: Colors.grey[100],
                                       filled: true,
                                       border: OutlineInputBorder(
@@ -353,7 +353,7 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.number,
                                     decoration: InputDecoration(
                                       hintText: '0',
                                       fillColor: Colors.grey[100],
@@ -380,7 +380,7 @@ class _DetailsScreen extends State<DetailsScreen> {
                                 margin: const EdgeInsets.fromLTRB(5, 0, 5, 0),
                                 child: Material(
                                   child: TextField(
-                                    keyboardType: TextInputType.text,
+                                    keyboardType: TextInputType.number,
                                     decoration: InputDecoration(
                                       hintText: '0',
                                       fillColor: Colors.grey[100],
@@ -453,7 +453,7 @@ class _DetailsScreen extends State<DetailsScreen> {
                   padding: EdgeInsets.fromLTRB(5, 2, 10, 0),
                   child: Material(
                     child: TextField(
-                      keyboardType: TextInputType.number,
+                      //  keyboardType: TextInputType.number,
                       decoration: InputDecoration(
                         hintText: '0',
                         fillColor: Colors.grey[100],
